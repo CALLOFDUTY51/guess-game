@@ -1,0 +1,61 @@
+body{
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.b{
+    border: 1px solid white;
+    margin-bottom: 10vw;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guess{
+    font-size: 30px;
+    background-color: gray;
+    padding: 15px;
+    border: 5px solid white;
+    text-align: center;
+}
+#btn_check{
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 25px;
+    width: 400px;
+}
+
+.btn_again{
+     font-size: 30px;
+     font-style: italic;
+}
+.between{
+    font-size: 30px;
+}
+.a{
+    font-size: 40px;
+}
+.right{
+    font-size: 30px;
+}
+.number{
+    
+    width: 20%;
+    background-color: white;
+    text-align: center;
+}
